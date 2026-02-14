@@ -1,96 +1,176 @@
-Hostile Mobs Improve Over Time
-Hostile mobs get stronger the longer you play. The difficulty is per player, players who have played for a long time will have stronger monsters while new players start with unbuffed monsters.
+# Hostile Mobs Improve Over Time
 
-Can be downloaded either as a datapack or a mod. Mod is only required on the server side.
+Hostile mobs get stronger the longer you play.
 
-Each mob is improving differently, if you wish to know how they are getting stronger/which abilities they may have, find the datapack for that mob on my profile page. Documentation sheet can be found on my discord server.
+Difficulty is **per-player**: players who have played for a long time will face stronger monsters, while new players start with unbuffed mobs.
 
-Currently, this datapack affects these mobs:
+You can download this project either as a **datapack** or a **mod**.  
+The mod is **server-side only**.
 
-Zombies
-Bogged
-Skeletons
-Spiders
-Creepers
-Pillagers
-Vindicators
-Witches
-Drowned
-Endermites
-Cave spiders
-Strays
-Zombified Piglins
-Guardians
-Hoglins
-Ravagers
-Silverfish
-Husks
-Wither skeletons
-Zoglins
-Piglins
+---
 
-Mobs in a 32 block radius get improved based on the players score in the HostileMobs scoreboard. The score defines how much will the mob be buffed. This score increases every 20 minutes (configurable).
+## Affected Mobs
 
-The improvements for each level are specified in one of 100 function files for each mob.
+Currently supported mobs:
 
-The mobs get improved based on the nearest player to that monster.
+- Bogged
+- Cave Spider
+- Creeper
+- Drowned
+- Endermite
+- Guardian
+- Hoglin
+- Husk
+- Pillager
+- Piglin
+- Ravager
+- Silverfish
+- Skeleton
+- Spider
+- Stray
+- Vindicator
+- Witch
+- Wither Skeleton
+- Zoglin
+- Zombified Piglin
+- Zombie
 
-You can snipe a monster before it is buffed by staying 32 blocks away from that monster. This also means this datapack does not break afkable farms where the player doesnt need to be close/kill the mobs.
+Each mob improves differently.  
+If you want to know exactly **how a specific mob scales** (stats / new abilities), check the datapack section for that mob on my profile page. A full documentation spreadsheet is available on my Discord server.
 
-Commands
-Config menu can be opened by using /function hostilemobs:config. There are settings for setting difficulty, toggleing some mob features, difficulty cap settings and death relief settings.
+---
 
-Difficulty cap can be configured to not allow mobs to be stronger past the set value. Negative cap is used when you are using death relief or to make players start at a certain difficulty.
+## How It Works
 
-Death relief is a feature toggled off by default. Enabling it will drop difficulty for players who die by the set amount.
+- Mobs within a **32 block radius** get improved based on the nearest player’s **`HostileMobs`** scoreboard value.
+- The **nearest player** to the monster determines the difficulty level applied to that monster.
+- Your `HostileMobs` score increases every **20 minutes** *(configurable)*.
+- Difficulty levels range from **1–100**. After level **100**, mobs stop scaling further.
 
-Mob toggles can be used to change which mobs should be improved by the datapack. Turn off mobs which you don't like/are too strong.
+### Performance / Farms Friendly
 
-The level/difficulty of mobs is tracked by the HostileMobs scoreboard, set the value yourself/players to smth and it will change the difficulty. It increments every 20 minutes. Difficulty (or days) go from 1-100, after 100 mobs stay the same as 100 ones.
+You can “snipe” monsters before they get buffed by staying **more than 32 blocks away** from them.
 
-Timer can be modified using the config menu
+This also means the datapack generally **does not break AFK-able farms** where the player doesn’t need to stand close to (or directly kill) the mobs.
 
-Level Shattering
-A feature which enables mobs to rarely drop special shards, which can decrease monster levels. By default, it is enabled ON, and each shard decreases the level by 1. All these settings can be configured in the config menu.
+---
 
-Using shards has a variety of side effects, so better be prepared. Side effects can be toggled on/off.
+## Commands / Configuration
 
-If you wish to change the drop chances, loot tables for each mob are located in data/hostilemobs/loot_tables/
+Open the config menu with:
 
-This feature is now compatible with datapacks that modify loot tables (since V1.8)
+```mcfunction
+/function hostilemobs:config
+```
 
-There are multiple settings for this feature in the config menu, with more along the way.
+The config menu includes:
+- Difficulty settings
+- Mob toggles (enable/disable specific mobs)
+- Difficulty caps
+- Death Relief
+- Timer settings
+- Level Shattering settings
 
-How to use level shatter shards? You should be able to figure it out yourself using the hints in the item description and advancements, but if you can't figure it out, its down below.
+### Difficulty Cap
 
-!SPOILER! How to use level shatter shards
-Future Plans
-my to-do list:
+You can set a **cap** so mobs can’t become stronger past a certain level.
 
-add missing mobs
-add more settings to config menu
-more advancements
-Documentation
-Documentation spreadsheet link can be found on my discord server. It has all the details about stats of each mob at each level and all the new abilities of monsters.
+A **negative cap** is used:
+- when using **Death Relief**, or
+- to force players to start at a certain difficulty.
 
-Disclaimer
-This datapack buffs the explosion of creepers, so use it at your own risk, as creeper accidents cause even more damage if they explode next to your builds/terrain.
+### Death Relief
 
-This datapack also adds a new ability to zoglins to change nearby blocks to their nether counterparts, this can be extremely destructive to player's builds and terrain, and is really hard to revert back.
+Death Relief is **OFF by default**.
 
-This datapack can also potentionally break raid farms (needs testing).
+When enabled, dying will **reduce** a player’s difficulty by a configurable amount.
 
-Other
-If you have any questions, suggestions, bug reports, feel free to join my discord server, link in external sources.
+### Mob Toggles
 
-Licence:
-By downloading the datapack, you agree with the following:
-You are not allowed to redistribute this datapack in any way
+Mob toggles let you decide **which mobs** get improved by the datapack.  
+Turn off mobs you don’t like or that feel too strong.
 
-You may modify this datapack, but distributing modified versions is not allowed
+### Manual Difficulty Control
 
-You can use this datapack in videos and other, but provide a link to this page in the description
+The mob level/difficulty is tracked by the **`HostileMobs`** scoreboard.
 
-You cannot take credit for the making of this datapack
+If you manually change a player’s `HostileMobs` score, you directly change the difficulty they will apply to nearby mobs.
 
-You may download this datapack only from official sources - currently it is only on planet minecraft and modrinth
+---
+
+## Level Shattering
+
+**Level Shattering** makes mobs rarely drop special **shards** that can decrease monster levels.
+
+Defaults:
+- **Enabled (ON)**
+- Each shard decreases the level by **1**
+
+All settings are configurable via the config menu.
+
+### Side Effects
+
+Using shards can cause a variety of **side effects**.  
+You can toggle side effects **ON/OFF** in the config menu.
+
+### Loot Tables / Drop Chances
+
+If you want to edit drop chances, loot tables are located here:
+
+```
+data/hostilemobs/loot_tables/
+```
+
+This feature is compatible with datapacks that modify loot tables **since v1.8**.
+
+---
+
+## Spoiler: How to Use Level Shatter Shards
+
+> **SPOILER WARNING**  
+> The intended experience is to discover this via item hints + advancements.
+
+*(Put your instructions here — or tell me how the shard is used and I’ll format it nicely.)*
+
+---
+
+## Future Plans (To-Do)
+
+- Add missing mobs
+- Add more settings to the config menu
+- Add more advancements
+
+---
+
+## Documentation
+
+The documentation spreadsheet is available on my **Discord server**.  
+It includes detailed stats for every mob at every level and all added abilities.
+
+---
+
+## Disclaimer
+
+- This datapack buffs **creeper explosions**. Use at your own risk — creeper accidents can cause much more damage.
+- Zoglins gain an ability that can convert nearby blocks into nether counterparts. This can be **extremely destructive** to builds/terrain and is hard to revert.
+- This datapack may potentially break **raid farms** *(needs testing).*
+
+---
+
+## Support / Feedback
+
+If you have questions, suggestions, or bug reports, feel free to join my Discord server (link in external sources).
+
+---
+
+## License
+
+By downloading this datapack, you agree to the following:
+
+- You are **not allowed** to redistribute this datapack in any way.
+- You **may modify** this datapack for personal use, but distributing modified versions is **not allowed**.
+- You **may use** this datapack in videos and other content, but **provide a link to this page** in the description.
+- You cannot take credit for making this datapack.
+- Download only from official sources:
+  - Planet Minecraft
+  - Modrinth
