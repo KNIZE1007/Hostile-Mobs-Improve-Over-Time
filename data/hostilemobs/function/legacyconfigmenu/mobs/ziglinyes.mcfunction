@@ -1,0 +1,1 @@
+scoreboard players set #ziglinangry HostileMobs 1

@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:short_grass",
+        "minecraft:torch",
+        "minecraft:wall_torch",
+        "minecraft:glow_lichen",
+        "minecraft:azalea",
+        "minecraft:cave_vines",
+        "minecraft:big_dripleaf_stem",
+        "minecraft:small_dripleaf",
+        "minecraft:rail",
+        "minecraft:red_carpet",
+        "minecraft:composter"
+    ]
+
+}

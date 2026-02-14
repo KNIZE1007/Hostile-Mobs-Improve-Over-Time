@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:skeleton/modify with storage knize:skeleton.$(num)

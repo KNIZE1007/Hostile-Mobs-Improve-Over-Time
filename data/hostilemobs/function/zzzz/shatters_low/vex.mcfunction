@@ -1,0 +1,1 @@
+summon vex ~ ~2 ~ {CustomNameVisible:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Health:10f,CustomName:'{"text":"Space-Time Vex","color":"aqua"}',HandItems:[{id:"minecraft:diamond_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:knockback",lvl:3s}]}},{}],HandDropChances:[0.000F,0.085F],attributes:[{id:"minecraft:max_health",base:10}]}

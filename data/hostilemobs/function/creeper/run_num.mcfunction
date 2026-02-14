@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:creeper/modify with storage knize:creeper.$(num)

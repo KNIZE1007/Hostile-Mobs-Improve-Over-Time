@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Shard of Reality]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Shard of Reality\n","color": "green"},{"text": "Obtain a Level Shattering Shard. Reacts when in contact with the right components.","color": "aqua"}]}}]

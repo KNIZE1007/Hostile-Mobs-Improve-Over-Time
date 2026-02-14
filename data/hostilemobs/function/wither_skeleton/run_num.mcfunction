@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:wither_skeleton/modify with storage knize:wither_skeleton.$(num)

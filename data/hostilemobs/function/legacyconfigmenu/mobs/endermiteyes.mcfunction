@@ -1,0 +1,1 @@
+scoreboard players set #endermiteteleport HostileMobs 1

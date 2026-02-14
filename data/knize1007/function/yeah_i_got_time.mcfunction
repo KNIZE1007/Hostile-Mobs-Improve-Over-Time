@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Yeah, I got time]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Yeah, I got time\n","color": "green"},{"text": "What a big waste of time!","color": "aqua"}]}}]

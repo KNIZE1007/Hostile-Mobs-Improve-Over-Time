@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:hoglin/modify with storage knize:hoglin.$(num)

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:rotten_flesh"
+					},
+		"title": "Hostile Mobs Improve Over Time",
+		"description": ["",{"text":"Hostile mobs get stronger the longer you play.","color":"aqua"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "knize1007:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod"
+		},
+		"title": {"text":"At least 2 wishes?"},
+		"description": {"color":"aqua","translate":"Catch a silverfish. Unlike a goldfish, it can not grant you wishes."},
+		"announce_to_chat": true,
+        "show_toast": true
+	},
+	"parent": "knize1007:hostilemobs",	
+	"criteria": {
+		"pig": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				}
+			}
+		}
+	},
+    "rewards": {
+      "function": "knize1007:fish_silverfish"
+    }
+}

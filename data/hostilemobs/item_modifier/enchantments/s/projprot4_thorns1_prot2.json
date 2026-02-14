@@ -1,0 +1,12 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:projectile_protection": 4,
+        "minecraft:protection": 2,
+        "minecraft:thorns": 1
+      },
+      "add": true
+    }
+  ]
+  

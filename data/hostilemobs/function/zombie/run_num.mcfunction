@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:zombie/modify with storage knize:zombie.$(num)

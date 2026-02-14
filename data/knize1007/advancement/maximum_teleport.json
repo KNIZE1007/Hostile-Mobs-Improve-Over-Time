@@ -1,0 +1,22 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:respawn_anchor"
+		},
+		"title": "To the Shadow Realm",
+		"description": [{"text":"Where the **** did that thing send me to?","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:teleport",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:maximum_teleport"
+    }
+	
+}

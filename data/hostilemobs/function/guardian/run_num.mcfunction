@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:guardian/modify with storage knize:guardian.$(num)

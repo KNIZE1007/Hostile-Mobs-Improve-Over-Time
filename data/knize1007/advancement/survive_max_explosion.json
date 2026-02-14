@@ -1,0 +1,30 @@
+{
+    "display": {
+		"icon": {
+			"id": "minecraft:tnt"
+		},
+		"title": "Nuke Shield",
+		"description": [{"text":"Block the strongest charged creeper's explosion with a shield.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:hostilemobs",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "blocked": true,
+            "source_entity": {
+              "type": "minecraft:creeper",
+              "nbt": "{Tags:[\"B100\"],powered:1b}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "knize1007:survive_max_explosion"
+    }
+  }
+  

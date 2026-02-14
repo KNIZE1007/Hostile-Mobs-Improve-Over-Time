@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:protection": 3,
+        "minecraft:feather_falling": 4,
+        "minecraft:depth_strider": 3,
+        "minecraft:soul_speed": 1
+      },
+      "add": true
+    }
+  ]
+  

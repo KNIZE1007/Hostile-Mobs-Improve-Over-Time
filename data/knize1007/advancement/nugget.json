@@ -1,0 +1,22 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_nugget"
+		},
+		"title": "At least eat it all",
+		"description": [{"text":"Leaving nuggets on the ground might make you a target.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:dig_quartz",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:nugget"
+    }
+	
+}

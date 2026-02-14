@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond"
+		},
+		"title": "Monsters Level 90",
+		"description": [{"text":"Almost there.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day80",
+	"criteria": {
+		"play75days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day90"
+    }
+}

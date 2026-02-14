@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Space-Time Shatter]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Space-Time Shatter\n","color": "green"},{"text": "Break the space-time continuum and reality itself just to decrease the monster levels.","color": "aqua"}]}}]

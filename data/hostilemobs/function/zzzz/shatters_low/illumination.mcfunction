@@ -1,0 +1,1 @@
+effect give @a[distance=..15] glowing 30000 0

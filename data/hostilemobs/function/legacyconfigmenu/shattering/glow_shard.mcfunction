@@ -1,0 +1,1 @@
+scoreboard players set #shard_monsters_glow HostileMobs 1

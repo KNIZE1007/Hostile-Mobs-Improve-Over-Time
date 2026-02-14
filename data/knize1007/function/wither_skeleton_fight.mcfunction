@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Still too easy]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Still too easy\n","color": "green"},{"text": "Kill a full netherite wither skeleton with just a stone sword.","color": "aqua"}]}}]

@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Main Settings - Difficulty Score & Death Relief"
+  },
+  "external_title": {
+    "text": "Main Settings"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "min_cap",
+      "label": {
+        "text": "Min",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Players can't have monsters below this level."
+          }
+        }
+      },
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "max_cap",
+      "width": 200,
+      "label": {
+        "text": "Max",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Players can't have monsters above this level."
+          }
+        }
+      },
+      "start": 0,
+      "end": 100,
+      "step": 1,
+      "initial": 100
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "this_level",
+      "width": 200,
+      "label": {
+        "text": "Set your level to",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Set to -1 to prevent modification"
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "all_level",
+      "label": {
+        "text": "Set @a level to",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "@a = all players, leave at -1 to prevent modification."
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "death_relief",
+      "label": {
+        "text": "Death Relief",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Toggle on to make dying decreases your monsters' levels"
+          }
+        }
+      },
+      "initial": false,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "death_relief_amount",
+      "width": 200,
+      "label": {
+        "text": "Death relief decreases level by",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Leave at -1 to prevent modifying your current value."
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "death_relief_cooldown",
+      "width": 200,
+      "label": {
+        "text": "Death relief cooldown",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "How many seconds have to pass for the next death to trigger death relief"
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "timer",
+      "width": 300,
+      "label": {
+        "text": "Time to increase level by one",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "How many seconds have to pass for monsters to level up."
+          }
+        }
+      },
+      "start": -1,
+      "end": 21600,
+      "step": 60,
+      "initial": -1
+    }
+  ],
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function hostilemobs:configmenu/apply_main_settings {min_cap:$(min_cap),max_cap:$(max_cap),this_level:$(this_level),all_level:$(all_level),death_relief:$(death_relief),death_relief_amount:$(death_relief_amount),death_relief_cooldown:$(death_relief_cooldown),timer:$(timer)}"
+    }
+  },
+  "no": {
+    "label": "Exit Without Saving"
+  }
+}

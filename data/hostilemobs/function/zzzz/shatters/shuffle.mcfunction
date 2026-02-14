@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["knize_armor_stand_shuffle"]}
+execute as @e[type=armor_stand,tag=knize_armor_stand_shuffle] at @s run function hostilemobs:zzzz/shatters/shuffle_cont

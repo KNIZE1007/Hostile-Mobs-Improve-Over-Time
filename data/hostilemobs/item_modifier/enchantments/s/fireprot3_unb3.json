@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:fire_protection": 3,
+        "minecraft:unbreaking": 3
+      },
+      "add": true
+    }
+  ]
+  

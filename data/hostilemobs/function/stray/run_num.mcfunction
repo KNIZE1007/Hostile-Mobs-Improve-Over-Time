@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:stray/modify with storage knize:stray.$(num)

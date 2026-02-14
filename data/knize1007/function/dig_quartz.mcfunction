@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[(not so) Quiet Quartz Mining]","color":"green","hover_event":{"action":"show_text","value":[{"text":"(not so) Quiet Quartz Mining\n","color": "green"},{"text": "Find a new place to mine quartz...","color": "aqua"}]}}]

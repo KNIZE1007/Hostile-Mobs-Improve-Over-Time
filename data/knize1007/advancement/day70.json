@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:redstone"
+		},
+		"title": "Monsters Level 70",
+		"description": [{"text":"These monsters really stronk 💪","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day60",
+	"criteria": {
+		"play75days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day70"
+    }
+}

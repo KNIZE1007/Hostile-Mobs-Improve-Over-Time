@@ -1,0 +1,1 @@
+fill ~2 ~50 ~2 ~-2 ~50 ~-2 light_blue_concrete_powder replace air

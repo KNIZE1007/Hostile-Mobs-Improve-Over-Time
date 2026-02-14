@@ -1,0 +1,1 @@
+scoreboard players set #stray HostileMobs 0

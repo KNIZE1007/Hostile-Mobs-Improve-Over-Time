@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:glow_squid",
+            "nbt": "{Tags:[\"eternal_squid\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "hostilemobs:zzzz/shatters/squid_say"
+    }
+  }
+  

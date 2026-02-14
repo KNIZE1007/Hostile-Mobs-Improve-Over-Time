@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cracked_stone_bricks"
+		},
+		"title": "Stronghold Infestation",
+		"description": [{"text":"Wake up the entire population of silverfish.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:fish_silverfish",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:stronghold_infestation"
+    }
+	
+}

@@ -1,0 +1,1 @@
+scoreboard players set #hoglin HostileMobs 1

@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Stray Shot]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Stray Shot\n","color": "green"},{"text": "Kill a stray with an arrow that is 100 blocks or more far away.","color": "aqua"}]}}]

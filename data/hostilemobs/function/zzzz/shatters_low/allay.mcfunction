@@ -1,0 +1,1 @@
+summon allay ~ ~ ~ {PersistenceRequired:1b,CanDuplicate:1b,Tags:["space_time_allay"],CustomName:'{"color":"aqua","italic":false,"text":"Space-time Allay"}'}

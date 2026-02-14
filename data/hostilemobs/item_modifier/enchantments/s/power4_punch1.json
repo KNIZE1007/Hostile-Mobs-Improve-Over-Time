@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:power": 4,
+        "minecraft:punch": 1
+      },
+      "add": true
+    }
+  ]
+  

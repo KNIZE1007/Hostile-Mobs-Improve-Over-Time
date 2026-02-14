@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Scoreboard display menu"
+  },
+  "inputs": [],
+  "actions": [
+    {
+      "label": "Level of mobs - sidebar",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar HostileMobs"
+      }
+    },
+    {
+      "label": "Level of mobs - list",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay list HostileMobs"
+      }
+    },
+    {
+      "label": "Level of mobs - below_name",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay below_name HostileMobs"
+      }
+    },
+    {
+      "label": "Timer inbetween level-ups - sidebar",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar TimerScoreboard"
+      }
+    },
+    {
+      "label": "Timer inbetween level-ups - list",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay list TimerScoreboard"
+      }
+    },
+    {
+      "label": "Timer inbetween level-ups - below_name",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay below_name TimerScoreboard"
+      }
+    },
+    {
+      "label": "Clear sidebar",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar"
+      }
+    },
+    {
+      "label": "Clear list",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay list"
+      }
+    },
+    {
+      "label": "Clear below_name",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay below_name"
+      }
+    },
+    {
+      "label": "Return",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "hostilemobs:main"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scoreboard players set #witherskeleton HostileMobs 0

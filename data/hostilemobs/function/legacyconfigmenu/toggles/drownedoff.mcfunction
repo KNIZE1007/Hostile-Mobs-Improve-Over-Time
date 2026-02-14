@@ -1,0 +1,1 @@
+scoreboard players set #drowned HostileMobs 0

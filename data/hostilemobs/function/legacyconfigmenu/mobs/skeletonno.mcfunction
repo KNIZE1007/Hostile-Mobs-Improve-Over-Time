@@ -1,0 +1,1 @@
+scoreboard players set #skeletonpower HostileMobs 0

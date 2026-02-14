@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:drowned/modify with storage knize:drowned.$(num)

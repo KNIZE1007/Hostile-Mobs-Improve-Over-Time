@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[At least eat it all]","color":"green","hover_event":{"action":"show_text","value":[{"text":"At least eat it all\n","color": "green"},{"text": "Leaving nuggets on the ground might make you a target.","color": "aqua"}]}}]

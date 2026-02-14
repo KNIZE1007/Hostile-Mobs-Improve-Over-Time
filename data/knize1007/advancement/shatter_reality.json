@@ -1,0 +1,36 @@
+{
+    "parent": "knize1007:hostilemobs",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:prismarine_shard"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "knize": "shard"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "title": "Shard of Reality",
+        "description": "Obtain a Level Shattering Shard. Reacts when in contact with the right components.",
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "rewards": {
+      "function": "knize1007:shatter_reality"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[To the Shadow Realm]","color":"green","hover_event":{"action":"show_text","value":[{"text":"To the Shadow Realm\n","color": "green"},{"text": "Where the **** did that thing send me to?","color": "aqua"}]}}]

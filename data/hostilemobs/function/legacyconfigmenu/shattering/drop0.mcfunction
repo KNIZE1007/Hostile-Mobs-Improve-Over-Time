@@ -1,0 +1,1 @@
+scoreboard players set #shardstart HostileMobs 0

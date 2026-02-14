@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[At least 2 wishes?]","color":"green","hover_event":{"action":"show_text","value":[{"text":"At least 2 wishes?\n","color": "green"},{"text": "Catch a silverfish. Unlike a goldfish, it can not grant you wishes.","color": "aqua"}]}}]

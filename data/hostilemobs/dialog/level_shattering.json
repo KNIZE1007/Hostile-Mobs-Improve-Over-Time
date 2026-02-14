@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Level Shattering Settings"
+  },
+   "external_title": {
+    "text": "Level Shattering Settings"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "level_shattering",
+      "label": {
+        "text": "Level shattering",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Toggle shard/level shattering mechanics."
+          }
+        }
+      },
+      "initial": false,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "shard_start",
+      "label": {
+        "text": "Shard drop start",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Level at which shards start dropping. Set to -1 to prevent modification."
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "shard_power",
+      "width": 200,
+      "label": {
+        "text": "Shard power",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Power scaling for shards. Set to -1 to prevent modification."
+          }
+        }
+      },
+      "start": -1,
+      "end": 100,
+      "step": 1,
+      "initial": -1
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "side_effects",
+      "label": {
+        "text": "Side effects",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Toggle extra side effects from shards/levels."
+          }
+        }
+      },
+      "initial": false,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "shard_glow",
+      "label": {
+        "text": "Shard monsters glow",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Toggle glowing effect on shard monsters."
+          }
+        }
+      },
+      "initial": false,
+      "on_true": "1",
+      "on_false": "0"
+    }
+  ],
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function hostilemobs:configmenu/apply_level_shatter_settings {level_shattering:$(level_shattering),shard_start:$(shard_start),shard_power:$(shard_power),side_effects:$(side_effects),shard_glow:$(shard_glow)}"
+    }
+  },
+  "no": {
+    "label": "Exit Without Saving"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ancient_debris"
+		},
+		"title": "The Ancient and The Angry",
+		"description": [{"text":"It seems like they are not happy about you taking that thing...","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:hostilemobs",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:dig_debris"
+    }
+	
+}

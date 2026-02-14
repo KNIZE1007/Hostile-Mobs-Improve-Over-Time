@@ -1,0 +1,37 @@
+V2.0 for MC 1.21.6-1.21.11
+
+Changelog for version 2.0:
+
+- This version is a beta - there might be bugs and oversights, please report any on my discord: https://discord.com/invite/PQFMab5ySp
+
+- Folder cleanup
+  - folders now named appropriately instead of just random letters
+- Major rewrite of how monsters are handled
+  - Basically every monster is now buffed differently than previously, in most cases a nerf from previous version.
+  - Instead of having one function file equal one data of a mob, now (almost) everything is stored inside data storages
+     - you can reach and modify them using /data merge storage ; using knize:<mob_name>.<number> (example: knize:bogged.0 , knize:wither_skeleton.89)
+  - Modify functions are run using macros and storages
+  - Range at which mobs get modified can now be changed (currently not part of config menu), value stored in knize:hmiot.other range:<value> ; default 32
+  - instead of overwriting data using /data merge entity, now it uses /attribute, /item, /effect, /tag commands, data merge only when needed for specifics
+     - attributes are not overwritten, but are modifiers
+        - most attributes use add_multiplied_base except armor and armor_toughness
+        - this should improve compatibility with other datapacks that for example add monster variants
+     - vindicators/wither skeletons/piglins no longer get their weapons overwritten, piglins can have crossbows or spears
+     - some mobs lost their status effects they had
+     - guardians no longer have extra thorns
+     - some mobs utilize "new" attributes like safe fall distance or burning time
+     - hoglins no longer get fire resistance
+  - Some abilities of mobs have been removed (witch teleport, zombie rage) and some will be reintroduced later (silent creepers, more baby zombies, ravager stun)
+    - While it was nowhere mentioned, spiders had the ability to trample crops. this can now be toggled on/off.
+- Brand new dialog config menu
+  - First iteration, feedback is welcome on what to improve
+  - Has all the previous settings from the old config menu
+    - old config menu still exists, but should not be used (some pages work, some dont) because of renaming of a lot of scores
+  - Added new page for links
+- Added bogged to the monster pool
+   - Bogged have a new camo ability at higher levels
+- Fixed some advancements
+
+# made by KNIZE_1007
+# Officialy published only on Modrinth and planet minecraft
+# Other websites have reuploaded without my consent and are in breach of the licence

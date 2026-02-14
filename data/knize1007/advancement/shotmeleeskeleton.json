@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "player": {},
+            "entity": {
+              "type": "minecraft:skeleton",
+              "nbt": "{Tags:[\"sword\"]}"
+            },
+            "killing_blow": {
+              "tags": [
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ],
+              "direct_entity": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          }
+        }
+      }, 
+    "display": {
+		"icon": {
+			"id": "minecraft:bow"
+					},
+		"title": "Panic Bow Spam",
+		"description": ["",{"text":"Defeat a sword-wielded skeleton by shooting him with a bow.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:meleeskeleton",
+    "rewards": {
+      "function": "knize1007:shotmeleeskeleton"
+    }
+  }

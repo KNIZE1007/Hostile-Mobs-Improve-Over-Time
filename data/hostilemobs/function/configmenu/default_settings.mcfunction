@@ -1,0 +1,32 @@
+scoreboard players set #shatter HostileMobs 1
+scoreboard players set #shardstart HostileMobs 5
+scoreboard players set #shardeffects HostileMobs 1
+scoreboard players set #shardpower HostileMobs 1
+scoreboard players set #shard_monsters_glow HostileMobs 0
+scoreboard players set #negativecap HostileMobs 0
+scoreboard players set #daysdecrease deaths 0
+scoreboard players set #cap HostileMobs 100
+scoreboard players set #leveluptimer TimerScoreboard 1200
+scoreboard players set #knize.bogged knize.hostilemobs 1
+scoreboard players set #knize.cave_spider knize.hostilemobs 1
+scoreboard players set #knize.creeper knize.hostilemobs 1
+scoreboard players set #knize.drowned knize.hostilemobs 1
+scoreboard players set #knize.endermite knize.hostilemobs 1
+scoreboard players set #knize.guardian knize.hostilemobs 1
+scoreboard players set #knize.hoglin knize.hostilemobs 1
+scoreboard players set #knize.husk knize.hostilemobs 1
+scoreboard players set #knize.piglin knize.hostilemobs 1
+scoreboard players set #knize.pillager knize.hostilemobs 1
+scoreboard players set #knize.ravager knize.hostilemobs 1
+scoreboard players set #knize.silverfish knize.hostilemobs 1
+scoreboard players set #knize.skeleton knize.hostilemobs 1
+scoreboard players set #knize.spider knize.hostilemobs 1
+scoreboard players set #knize.stray knize.hostilemobs 1
+scoreboard players set #knize.vindicator knize.hostilemobs 1
+scoreboard players set #knize.witch knize.hostilemobs 1
+scoreboard players set #knize.wither_skeleton knize.hostilemobs 1
+scoreboard players set #knize.zoglin knize.hostilemobs 1
+scoreboard players set #knize.zombie knize.hostilemobs 1
+scoreboard players set #knize.zombified_piglin knize.hostilemobs 1
+data merge storage knize:hmiot.other {range:32}
+function hostilemobs:configmenu/build_storages

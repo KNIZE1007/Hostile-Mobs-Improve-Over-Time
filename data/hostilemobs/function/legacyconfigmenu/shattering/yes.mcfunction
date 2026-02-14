@@ -1,0 +1,1 @@
+scoreboard players set #shatter HostileMobs 1

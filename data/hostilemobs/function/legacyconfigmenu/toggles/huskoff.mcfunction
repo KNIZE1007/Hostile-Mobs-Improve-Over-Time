@@ -1,0 +1,1 @@
+scoreboard players set #husk HostileMobs 0

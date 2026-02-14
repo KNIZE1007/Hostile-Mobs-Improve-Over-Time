@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "player": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "wooden_sword",
+                    "stone_sword",
+                    "iron_sword",
+                    "diamond_sword",
+                    "golden_sword",
+                    "netherite_sword"
+                  ]     
+                }
+              }
+            },
+            "entity": {
+              "type": "minecraft:skeleton",
+              "nbt": "{Tags:[\"sword\"]}"
+            }
+          }
+        }
+      },
+    "display": {
+		"icon": {
+			"id": "minecraft:iron_sword"
+					},
+		"title": "Sword Duel",
+		"description": ["",{"text":"Defeat a sword-wielded skeleton with your sword.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:hostilemobs",
+    "rewards": {
+      "function": "knize1007:meleeskeleton"
+    }
+
+  }
+  

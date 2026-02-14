@@ -1,0 +1,2 @@
+say yooo
+$say $(bogged)

@@ -1,0 +1,22 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:quartz"
+		},
+		"title": "(not so) Quiet Quartz Mining",
+		"description": [{"text":"Find a new place to mine quartz...","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:dig_debris",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:dig_quartz"
+    }
+	
+}

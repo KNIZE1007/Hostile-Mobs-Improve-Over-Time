@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Fishing for a Trident]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Fishing for a Trident\n","color": "green"},{"text": "Pull a trident drowned closer. Totally safe.","color": "aqua"}]}}]

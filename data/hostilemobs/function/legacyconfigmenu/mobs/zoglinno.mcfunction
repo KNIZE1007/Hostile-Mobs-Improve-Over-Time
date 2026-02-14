@@ -1,0 +1,1 @@
+scoreboard players set #zoglincorruption HostileMobs 0

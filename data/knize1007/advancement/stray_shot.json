@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:arrow"
+		},
+		"title": {"translate":"Stray Shot"},
+		"description": {"color":"aqua","translate":"Kill a stray with an arrow that is 100 blocks or more far away."},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "knize1007:shotmeleeskeleton",
+	"criteria": {
+		"shoot_stray": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
+				},
+				"entity": {
+					"type": "stray",
+					"distance": {
+						"horizontal": {
+							"min": 100
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shoot_stray"
+		]
+	],
+	"rewards": {
+		"function": "knize1007:stray_shot"
+	}
+}

@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:cave_spider/modify with storage knize:cave_spider.$(num)

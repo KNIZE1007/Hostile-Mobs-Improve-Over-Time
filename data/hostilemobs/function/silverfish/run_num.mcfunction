@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:silverfish/modify with storage knize:silverfish.$(num)

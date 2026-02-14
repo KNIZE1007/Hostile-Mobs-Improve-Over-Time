@@ -1,0 +1,1 @@
+scoreboard players set #witch HostileMobs 0

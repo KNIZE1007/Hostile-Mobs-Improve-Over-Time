@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Perhaps Useful]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Perhaps Useful\n","color": "green"},{"text": "Kill a spider with a sword which has bane of arthropods.","color": "aqua"}]}}]

@@ -1,0 +1,165 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Mob Abilities"
+  },
+   "external_title": {
+    "text": "Mob Abilities"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "endermite_teleport_ability",
+      "label": {
+        "text": "Endermite teleport ability",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.endermite.teleport_ability"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "cave_spider_webs",
+      "label": {
+        "text": "Cave spider webs",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.cave_spider.webs"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "silverfish_spread",
+      "label": {
+        "text": "Silverfish spread infestation",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.silverfish.spread"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "skeleton_sword_switch",
+      "label": {
+        "text": "Skeleton can switch to swords",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.skeleton.sword_switch"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "zombified_piglin_angry",
+      "label": {
+        "text": "More zombified piglin anger",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.zombified_piglin.extra_anger"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "zoglin_corruption",
+      "label": {
+        "text": "Zoglin corruption",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.zoglin.corruption"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "creeper_fuse",
+      "label": {
+        "text": "Creepers shorter fuse",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.creeper.fuse"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "creeper_explosion",
+      "label": {
+        "text": "Creepers stronger explosions",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.creeper.extra_explosive"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "spider_trample",
+      "label": {
+        "text": "Spider trample crops",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "#knize.spider.trample"
+          }
+        }
+      },
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    }
+  ],
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function hostilemobs:configmenu/apply_mob_ability_toggles {endermite_teleport_ability:$(endermite_teleport_ability),cave_spider_webs:$(cave_spider_webs),silverfish_spread:$(silverfish_spread),skeleton_sword_switch:$(skeleton_sword_switch),zombified_piglin_angry:$(zombified_piglin_angry),zoglin_corruption:$(zoglin_corruption),creeper_fuse:$(creeper_fuse),creeper_explosion:$(creeper_explosion),spider_trample:$(spider_trample)}"
+    }
+  },
+  "no": {
+    "label": "Exit Without Saving"
+  }
+}

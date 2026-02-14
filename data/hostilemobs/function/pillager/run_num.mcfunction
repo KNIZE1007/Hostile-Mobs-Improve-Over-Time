@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:pillager/modify with storage knize:pillager.$(num)

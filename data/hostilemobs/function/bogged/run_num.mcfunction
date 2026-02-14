@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:bogged/modify with storage knize:bogged.$(num)

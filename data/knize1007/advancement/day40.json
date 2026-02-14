@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lapis_lazuli"
+		},
+		"title": "Monsters Level 40",
+		"description": [{"text":"Gotta grind more levels mobs!","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day30",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day40"
+    }
+	
+}

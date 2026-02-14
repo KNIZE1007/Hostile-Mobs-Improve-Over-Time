@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:firework_rocket"
+		},
+		"title": {"translate":"Firework Revenge"},
+		"description": {"color":"aqua","translate":"Get back at the pillagers with your own firework rockets."},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "knize1007:hostilemobs",		
+	"criteria": {
+		"pillager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "pillager",
+					"equipment": {
+						"offhand": {
+							"items": [
+								"firework_rocket"
+							]
+						}
+					}
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:firework_rocket"
+					}
+				}
+			}
+		}
+	},
+    "rewards": {
+      "function": "knize1007:firework_revenge"
+    }
+}

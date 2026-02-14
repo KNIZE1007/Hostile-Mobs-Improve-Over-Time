@@ -1,0 +1,12 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:power": 5,
+        "minecraft:punch": 2,
+        "minecraft:flame": 1
+      },
+      "add": true
+    }
+  ]
+  

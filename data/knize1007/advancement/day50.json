@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_ingot"
+		},
+		"title": "Monsters Level 50",
+		"description": [{"text":"Halfway point! I hope you are not overwhelmed yet, we still have a long way to go.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day40",
+	"criteria": {
+		"play50days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day50"
+    }
+}

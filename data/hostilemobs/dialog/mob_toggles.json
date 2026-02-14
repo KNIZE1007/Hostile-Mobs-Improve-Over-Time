@@ -1,0 +1,278 @@
+{
+  "type": "minecraft:confirmation",
+  "external_title": {
+    "text": "Mob Toggles"
+  },
+  "title": [
+    {
+      "text": "Mob toggles"
+    }
+  ],
+  "body": [],
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "bogged",
+      "label": [
+        {
+          "text": "Bogged"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "cave_spider",
+      "label": [
+        {
+          "text": "Cave Spider"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "creeper",
+      "label": [
+        {
+          "text": "Creeper"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "drowned",
+      "label": [
+        {
+          "text": "Drowned"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "endermite",
+      "label": [
+        {
+          "text": "Endermite"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "guardian",
+      "label": [
+        {
+          "text": "Guardian"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "hoglin",
+      "label": [
+        {
+          "text": "Hoglin"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "husk",
+      "label": [
+        {
+          "text": "Husk"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "piglin",
+      "label": [
+        {
+          "text": "Piglin"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "pillager",
+      "label": [
+        {
+          "text": "Pillager"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "ravager",
+      "label": [
+        {
+          "text": "Ravager"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "silverfish",
+      "label": [
+        {
+          "text": "Silverfish"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "skeleton",
+      "label": [
+        {
+          "text": "Skeleton"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "spider",
+      "label": [
+        {
+          "text": "Spider"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "stray",
+      "label": [
+        {
+          "text": "Stray"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "vindicator",
+      "label": [
+        {
+          "text": "Vindicator"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "witch",
+      "label": [
+        {
+          "text": "Witch"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "wither_skeleton",
+      "label": [
+        {
+          "text": "Wither Skeleton"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "zoglin",
+      "label": [
+        {
+          "text": "Zoglin"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "zombie",
+      "label": [
+        {
+          "text": "Zombie"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "zombified_piglin",
+      "label": [
+        {
+          "text": "Zombified Piglin"
+        }
+      ],
+      "initial": true,
+      "on_true": "1",
+      "on_false": "0"
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function hostilemobs:configmenu/idk {bogged:$(bogged),cave_spider:$(cave_spider),creeper:$(creeper),drowned:$(drowned),endermite:$(endermite),guardian:$(guardian),hoglin:$(hoglin),husk:$(husk),piglin:$(piglin),pillager:$(pillager),ravager:$(ravager),silverfish:$(silverfish),skeleton:$(skeleton),spider:$(spider),stray:$(stray),vindicator:$(vindicator),witch:$(witch),wither_skeleton:$(wither_skeleton),zoglin:$(zoglin),zombie:$(zombie),zombified_piglin:$(zombified_piglin)}"
+    }
+  },
+  "no": {
+    "label": "Exit without saving"
+  }
+}

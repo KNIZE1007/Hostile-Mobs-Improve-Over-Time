@@ -1,0 +1,32 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stick"
+		},
+		"title": "Hogwarts",
+		"description": [{"text":"This prestigous school now accepts hoglins!","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true,
+		"frame": "challenge"
+	},
+    "parent": "knize1007:dig_debris",
+	"criteria": {
+		"requirement": {
+		  "trigger": "minecraft:player_killed_entity",
+		  "conditions": {
+			"entity": {
+			  "type": "minecraft:hoglin",
+			  "location": {
+				"structure": "minecraft:mansion"
+			  }
+			}
+		  }
+		}
+	},
+    "rewards": {
+      "function": "knize1007:hogwarts"
+    }
+	
+}

@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Monsters Level 20]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Monsters Level 20\n","color": "green"},{"text": "The changes in power start to be noticeable.","color": "aqua"}]}}]

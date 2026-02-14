@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": "Monsters Level 80",
+		"description": [{"text":"Well, now the mobs really hit hard, but you should have good gear by now.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day70",
+	"criteria": {
+		"play75days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day80"
+    }
+}

@@ -1,0 +1,22 @@
+
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crimson_nylium"
+		},
+		"title": "Zoglin Corruption",
+		"description": [{"text":"It seems to be spreading nether around it...","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:dig_debris",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:zoglin_spread"
+    }
+	
+}

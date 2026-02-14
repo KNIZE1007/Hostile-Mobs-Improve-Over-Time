@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:string"
+		},
+		"title": "Trapped in a Web",
+		"description": [{"text":"Get trapped in a cobweb by a cave spider.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:arthropod",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:cavespider1"
+    }
+	
+}

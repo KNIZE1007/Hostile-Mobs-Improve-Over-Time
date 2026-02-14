@@ -1,0 +1,1 @@
+scoreboard players set #vindicator HostileMobs 0

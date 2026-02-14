@@ -1,0 +1,82 @@
+{
+    "display": {
+		"icon": {
+			"id": "minecraft:stone_sword"
+		},
+		"title": "Still too easy",
+		"description": [{"text":"Kill a full netherite wither skeleton with just a stone sword.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:stray_shot",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "stone_sword"
+                ]
+              },
+              "head": {
+                "items": [
+                  "air"
+                ]
+              },
+              "chest": {
+                "items": [
+                  "air"
+                ]
+              },
+              "legs": {
+                "items": [
+                  "air"
+                ]
+              },
+              "feet": {
+                "items": [
+                  "air"
+                ]
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:wither_skeleton",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:netherite_sword"
+                ]
+              },
+              "head": {
+                "items": [
+                  "minecraft:netherite_helmet"
+                ]
+              },
+              "chest": {
+                "items": [
+                  "minecraft:netherite_chestplate"
+                ]
+              },
+              "legs": {
+                "items": [
+                  "minecraft:netherite_leggings"
+                ]
+              },
+              "feet": {
+                "items": [
+                  "minecraft:netherite_boots"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "knize1007:wither_skeleton_fight"
+    }
+  }
+  

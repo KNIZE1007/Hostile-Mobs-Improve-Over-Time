@@ -1,0 +1,1 @@
+execute at @s run place feature minecraft:sculk_patch_deep_dark ~ ~ ~

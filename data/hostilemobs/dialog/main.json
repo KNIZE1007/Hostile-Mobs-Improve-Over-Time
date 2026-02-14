@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "Hostile Mobs Improve Over Time Config Menu"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      },
+      "width": 400
+    }
+  ],
+  "inputs": [],
+  "dialogs": [
+    "hostilemobs:mob_toggles",
+    "hostilemobs:mob_abilities",
+    "hostilemobs:main_settings",
+    "hostilemobs:level_shattering",
+    "hostilemobs:scoreboard_displays",
+    "hostilemobs:links"
+  ]
+}

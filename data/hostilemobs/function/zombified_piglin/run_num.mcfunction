@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:zombified_piglin/modify with storage knize:zombified_piglin.$(num)

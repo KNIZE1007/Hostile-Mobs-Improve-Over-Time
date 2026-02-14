@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chorus_fruit"
+		},
+		"title": "I Can't Remember Eating Chorus Fruit",
+		"description": [{"text":"Get teleported by an endermite. Guess it has teleportation powers after all.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+    "parent": "knize1007:hostilemobs",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:teleport"
+    }
+	
+}

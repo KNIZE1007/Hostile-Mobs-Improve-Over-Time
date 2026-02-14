@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {"profile":{"name":"KNIZE_1007","id":[-1129322263,-883015568,-1866607847,857631677],"properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTcxNzQ5MDQzMzY3NSwKICAicHJvZmlsZUlkIiA6ICJiY2FmZThlOWNiNWU0MDcwOTBiZGQzMTkzMzFlNmJiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLTklaRV8xMDA3IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2YzdlZjRlOWEyMGFiMGFmYmVhNjAyYjM2MGY0OTZhY2JmZTViNzY1MjQ5NzZhNzE5NGJmYTMxYTRkMGUxYzQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmZDU1M2IzOTM1OGEyNGVkZmUzYjhhOWE5MzlmYTVmYTRmYWE0ZDlhOWMzZDZhZjhlYWZiMzc3ZmEwNWMyYmIiCiAgICB9CiAgfQp9"}]}}
+		},
+		"title": "KNIZE_1007's packs",
+		"frame": "challenge",
+		"description": ["",{"text":"All installed datapacks created by KNIZE_1007","color":"aqua"}],
+		"background": "block/exposed_cut_copper",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

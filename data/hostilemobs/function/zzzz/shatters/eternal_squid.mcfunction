@@ -1,0 +1,2 @@
+summon glow_squid ~ ~2 ~ {Tags:["eternal_squid"],CustomNameVisible:1b,PersistenceRequired:1b,Health:9000f,DarkTicksRemaining:0,CustomName:'{"text":"Eternal Squid","color":"aqua","bold":false,"italic":false}',active_effects:[{id:"minecraft:water_breathing",amplifier:0b,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:5000},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:armor",base:20},{id:"minecraft:armor_toughness",base:12}]}
+effect give @e[tag=eternal_squid] resistance infinite 2 true

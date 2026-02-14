@@ -1,0 +1,1 @@
+execute at @s as @e[type=bogged,sort=nearest,limit=1] run function hostilemobs:playground/bogged with storage knize:bogged.0

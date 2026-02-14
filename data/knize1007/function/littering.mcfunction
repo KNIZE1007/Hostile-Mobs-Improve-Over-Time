@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[No Littering]","color":"green","hover_event":{"action":"show_text","value":[{"text":"No Littering\n","color": "green"},{"text": "Littering is no longer tolerated in the nether.","color": "aqua"}]}}]

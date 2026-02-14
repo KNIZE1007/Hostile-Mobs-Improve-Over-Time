@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 94,
+    "min_format": 80,
+    "max_format": 94,
+    "supported_formats": {
+      "max_inclusive": 94,
+      "min_inclusive": 80
+    },
+    "description": {
+      "text": "Hostile Mobs Improve Over Time, by KNIZE_1007"
+    }
+  }
+}

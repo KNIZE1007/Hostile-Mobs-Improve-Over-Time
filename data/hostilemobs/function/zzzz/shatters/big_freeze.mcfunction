@@ -1,0 +1,1 @@
+execute at @s run fill ~1 ~3 ~1 ~-1 ~-1 ~-1 ice replace air

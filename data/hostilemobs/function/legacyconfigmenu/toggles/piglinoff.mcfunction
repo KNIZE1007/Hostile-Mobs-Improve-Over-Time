@@ -1,0 +1,1 @@
+scoreboard players set #piglin HostileMobs 0

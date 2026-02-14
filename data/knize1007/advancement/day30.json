@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:copper_ingot"
+		},
+		"title": "Monsters Level 30",
+		"description": [{"text":"These mobs are a bit harder, but for a professional like you it's definitely still easy.","color":"aqua"}],
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+    "parent": "knize1007:day20",
+	"criteria": {
+		"play25days": {
+			"trigger": "minecraft:impossible"
+		  }
+	},
+    "rewards": {
+      "function": "knize1007:day30"
+    }
+	
+}

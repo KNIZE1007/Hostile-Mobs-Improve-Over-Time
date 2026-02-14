@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Links"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Links to my pages"
+      },
+      "width": 400
+    }
+  ],
+  "inputs": [],
+  "actions": [
+    {
+      "label": "Visit modrinth site",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://modrinth.com/datapack/hostile-mobs-improve-over-time"
+      }
+    },
+    {
+      "label": "Visit my discord server",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://discord.com/invite/PQFMab5ySp"
+      }
+    },
+    {
+      "label": "Return",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "hostilemobs:main"
+      }
+    }
+  ]
+}

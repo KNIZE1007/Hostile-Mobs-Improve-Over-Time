@@ -1,0 +1,1 @@
+scoreboard players set #creeper SilenceCreepers 1

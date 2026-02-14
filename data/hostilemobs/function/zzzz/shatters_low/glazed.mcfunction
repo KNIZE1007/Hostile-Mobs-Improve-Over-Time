@@ -1,0 +1,1 @@
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 light_blue_glazed_terracotta replace #hostilemobs:normal

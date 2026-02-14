@@ -1,0 +1,1 @@
+scoreboard players set #ravager HostileMobs 1

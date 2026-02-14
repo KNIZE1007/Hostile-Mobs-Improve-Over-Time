@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:vindicator/modify with storage knize:vindicator.$(num)

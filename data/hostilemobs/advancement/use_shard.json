@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": ["minecraft:prismarine_shard"],
+            "components": {
+              "minecraft:custom_data": {"knize":"shard"}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "hostilemobs:zzzz/shatter"
+    }
+
+  }
+  

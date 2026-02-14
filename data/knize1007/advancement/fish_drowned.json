@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": {"text":"Fishing for a Trident"},
+		"description": {"color":"aqua","translate":"Pull a trident drowned closer. Totally safe."},
+		"announce_to_chat": true,
+        "show_toast": true
+	},
+	"parent": "knize1007:hostilemobs",	
+	"criteria": {
+		"pig": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:drowned",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "trident"
+                            ]
+                        }
+                    }
+				}
+			}
+		}
+	},
+    "rewards": {
+      "function": "knize1007:fish_drowned"
+    }
+}

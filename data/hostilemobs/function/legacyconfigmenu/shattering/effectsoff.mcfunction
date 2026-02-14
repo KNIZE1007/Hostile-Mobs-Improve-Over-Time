@@ -1,0 +1,1 @@
+scoreboard players set #shardeffects HostileMobs 0

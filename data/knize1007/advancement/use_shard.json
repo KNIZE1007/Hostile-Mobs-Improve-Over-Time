@@ -1,0 +1,23 @@
+{
+    "parent": "knize1007:shatter_reality",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible",
+          "conditions": {}
+        }
+      },
+    "display": {
+        "icon": {
+            "id": "minecraft:sculk_catalyst"
+        },
+        "title": "Space-Time Shatter",
+        "description": "Break the space-time continuum and reality itself just to decrease the monster levels.",
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "rewards": {
+      "function": "knize1007:use_shard"
+    }
+  }
+  

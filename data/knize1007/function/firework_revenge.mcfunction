@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Firework Revenge]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Firework Revenge\n","color": "green"},{"text": "Get back at the pillagers with your own firework rockets.","color": "aqua"}]}}]

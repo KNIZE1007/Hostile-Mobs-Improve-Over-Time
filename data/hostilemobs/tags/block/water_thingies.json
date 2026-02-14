@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "water",
+        "kelp",
+        "kelp_plant",
+        "seagrass",
+        "tall_seagrass",
+        "bubble_column"
+    ]
+}

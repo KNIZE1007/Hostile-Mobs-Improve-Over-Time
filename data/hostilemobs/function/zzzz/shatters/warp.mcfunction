@@ -1,0 +1,1 @@
+spreadplayers ~ ~ 0 24 true @s

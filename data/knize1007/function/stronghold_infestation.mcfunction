@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Stronghold Infestation]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Stronghold Infestation\n","color": "green"},{"text": "Wake up the entire population of silverfish.","color": "aqua"}]}}]

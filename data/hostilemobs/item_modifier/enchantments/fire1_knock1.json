@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:fire_aspect": 1,
+        "minecraft:knockback": 1
+      },
+      "add": true
+    }
+  ]
+  

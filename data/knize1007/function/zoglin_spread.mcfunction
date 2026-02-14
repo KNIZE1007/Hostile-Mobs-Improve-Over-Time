@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Zoglin Corruption]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Zoglin Corruption\n","color": "green"},{"text": "It seems to be spreading nether around it...","color": "aqua"}]}}]

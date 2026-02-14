@@ -1,0 +1,1 @@
+$execute as @s run function hostilemobs:husk/modify with storage knize:husk.$(num)

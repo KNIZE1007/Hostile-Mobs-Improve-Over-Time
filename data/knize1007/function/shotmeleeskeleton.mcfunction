@@ -1,0 +1,1 @@
+execute if score #aa HostileMobs matches 1.. run tellraw @a [{"selector":"@s"},{"text":" has made the advancement "},{"text":"[Panic Bow Spam]","color":"green","hover_event":{"action":"show_text","value":[{"text":"Panic Bow Spam\n","color": "green"},{"text": "Defeat a sword-wielded skeleton by shooting him with a bow.","color": "aqua"}]}}]

@@ -1,0 +1,1 @@
+scoreboard players set #oneshot oneshotwitch 0

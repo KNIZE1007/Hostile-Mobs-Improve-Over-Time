@@ -1,0 +1,21 @@
+[
+    {
+      "function": "minecraft:set_fireworks",
+      "explosions": {
+        "values": [
+          {
+            "shape": "large_ball",
+            "colors": [
+              16711680
+              
+            ]
+          }
+        ],
+        "mode": "append"
+      }
+    },
+    {
+        "function": "set_count",
+        "count": 64
+    }
+  ]
